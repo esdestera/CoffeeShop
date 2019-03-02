@@ -1,0 +1,133 @@
+﻿body
+{
+    font-family: Corbel, Arial, Helvetica, Verdana;
+    font-size: 16px;
+    background-color: lavender;
+}
+
+#wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #dedede;
+    background-color: #fff;
+}
+
+#banner{
+    height: 200px;
+    border: 3px solid #E3E3E3;
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#navigation {
+    height: 60px;
+    margin-top: 20px;
+    border: 3px solid #E3E3E3;
+    background-image: url(../Images/bar_background.png);
+    text-shadow: 0.1em 0.1em #333;
+}
+
+#nav{
+    list-style: none;
+}
+
+#nav ul{
+    display: none;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#nav li{
+    float: left;
+    font-size: 24px;
+    width: 180px;
+    height: 50px;
+    position: relative;
+}
+
+#nav li ul li {
+    background-image: url(../Images/bar_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #E3E3E3;
+    padding-left: 1px;
+}
+
+nav a:link , #nav a :visited, #nav a:visited{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background-color: lightblue;
+}
+
+#content{
+    float: left;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    width: 750px;
+    border: 3px solid #E3E3E3;
+
+
+}
+
+#sidebar {
+    float: right;
+    width: 250px;
+    margin: 20px 10px 20px 10px;
+    border: 3px solid #E3E3E3;
+}
+
+#footer {
+    clear: both;
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+    background-image: url(../Images/bar_background.png);
+    text-shadow: 0.1em 0.1em #333;
+    color:white;
+    text-align: center;
+}
+
+.imgLeft{
+    float: left;
+    width: 240px;
+    height: 50px;
+    margin: 0px 10px 10px 0;
+    padding: 10px
+}
+
+.imgRight {
+    float: right;
+    width: 200px;
+    height: 250px;
+    margin: 0px 0 10px 10px;
+    padding: 10px
+}
+
+.coffeTable {
+    width: 750px;
+    height: 250px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.coffeeTable tr th, .coffeeTable tr td {
+    text-align: left;
+    padding: 0px 5px 0px 5px;
+}
+
+.coffeTable img {
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+}
